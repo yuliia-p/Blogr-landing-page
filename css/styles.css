@@ -1,0 +1,31 @@
+body {
+  font-size: 16px;
+
+  /* background-image: linear-gradient(to right, #ff8f70, #ff7e66, #ff6c5e, #ff5758, #ff3d54); */
+
+  /* background: rgb(44, 45, 63);
+  background: linear-gradient(0deg, rgba(44, 45, 63, 1) 0%, rgba(63, 65, 100, 1) 100%); */
+}
+
+div.row-red {
+  height: 600px;
+  padding-top: 3rem;
+  background-image:
+    linear-gradient(
+      to bottom,
+      #e66465,
+      rgba(249, 75, 75, 0.673)
+    ),
+    url("../images/bg-pattern-intro-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 300%;
+  background-position-x: center;
+  background-position-y: center;
+  border-bottom-left-radius: 6rem;
+}
+
+.fa-bars {
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
