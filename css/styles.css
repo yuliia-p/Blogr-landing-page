@@ -13,7 +13,7 @@ body {
 
 div.row-red {
   color: white;
-  height: 600px;
+  height: 100%;
   padding-top: 3rem;
   background-image:
     linear-gradient(
@@ -37,6 +37,7 @@ div.logo {
   font-size: 2rem;
 }
 
+.d-none,
 .desktop,
 .off {
   display: none;
@@ -74,4 +75,38 @@ button.learn-b {
   background-color: transparent;
   color: white;
   margin-left: 0.5rem;
+}
+
+.menu-content,
+.on {
+  padding: 1.5rem;
+  position: fixed;
+  right: 1rem;
+  left: 1rem;
+  top: 7rem;
+  width: 90%;
+  margin: auto;
+  background-color: rgb(255 255 255);
+  color: hsl(208deg, 49%, 24%);
+  font-size: 1.5rem;
+}
+
+.p-holder {
+  cursor: pointer;
+}
+
+button.login-b,
+button.reg-b {
+  width: 80%;
+  padding: 1rem;
+  font-size: 1.3rem;
+  border-radius: 30px;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+}
+
+.login-b {
+  background-color: white;
+  color: hsl(208deg, 49%, 24%);
+  border: solid 1px white;
 }
