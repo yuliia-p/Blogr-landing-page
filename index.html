@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Landing Page</title>
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -17,19 +17,60 @@
 </head>
 <body>
   <div class="container">
-    <div class="row">
+    <div class="row row-red">
       <div class="column-half logo">
         <img src="./images/logo.svg" alt="logo">
       </div>
       <div class="column-half menu-mobile">
         <div class="menu-bars" style="text-align: end;">
-          <i class="fa fa-solid fa-bars"></i>
+          <i id="menu-icon" class="fa fa-thin fa-bars"></i>
+          <img id="cross-icon" src="./images/icon-close.svg" alt="cross-img">
+        </div>
+        <div class="menu-div-mobile">
+          <div class="menu-content">
+            <div class="p-holder">
+              <p class="p-menu click">Product<img style="margin-left: 0.5rem;" src="./images/icon-arrow-light.svg" alt="arrow-down"
+                  class="arrow-down"></p>
+              <div class="features-menu d-none menu">
+                <p>Overview</p>
+                <p>Pricing</p>
+                <p>Marketplace</p>
+                <p>Features</p>
+                <p>Integrations</p>
+              </div>
+              <p class="p-menu click">Company<img style="margin-left: 0.5rem;" src="./images/icon-arrow-light.svg" alt="arrow-down"
+                  class="arrow-down"></p>
+              <div class="features-menu d-none menu">
+                <p>About</p>
+                <p>Team</p>
+                <p>Blog</p>
+                <p>Careers</p>
+              </div>
+              <p class="p-menu click">Connect<img style="margin-left: 0.5rem;" src="./images/icon-arrow-light.svg" alt="arrow-down"
+                  class="arrow-down"></p>
+              <div class="features-menu d-none menu">
+                <p>Contact</p>
+                <p>Newsletter</p>
+                <p>LinkedIn</p>
+              </div>
+              <div class="button-holder-mobile">
+                <button class="login-b">Login</button>
+                <button class="reg-b">Sign Up</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="column-half menu-desktop"></div>
+      <div class="column-half menu-desktop desktop"></div>
+      <div class="column-full">
+        <h1>A modern publishing platform</h1>
+        <p>Grow your audience and build your online brand</p>
+        <button class="start-b">Start for Free</button>
+        <button class="learn-b">Learn More</button>
+      </div>
     </div>
     <div class="row">
-      <div class="column-full"></div>
+
       <div class="column-half"></div>
       <div class="column-half"></div>
     </div>
@@ -68,12 +109,10 @@
   Contact
   Newsletter
   LinkedIn
-  
-  Login
-  Sign Up
 
-  A modern publishing platform
-  Grow your audience and build your online brand
+
+
+
 
   Start for Free
   Learn More
@@ -81,22 +120,22 @@
   Designed for the future
 
   Introducing an extensible editor
-  Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
-  The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
-  videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+  Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+  The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+  videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
   change the looks of a blog.
 
   Robust content management
-  Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+  Flexible content management enables users to easily move through posts. Increase the usability of your blog
   by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
 
   State of the Art Infrastructure
-  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
   This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
 
   Free, open, simple
-  Blogr is a free and open source application backed by a large community of helpful developers. It supports 
-  features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+  Blogr is a free and open source application backed by a large community of helpful developers. It supports
+  features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools,
   and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
 
   Powerful tooling
@@ -119,14 +158,15 @@
   Careers
 
   Connect
-  
+
   Contact
   Newsletter
   LinkedIn
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <script src="./js/main.js"></script>
 </body>
 </html>

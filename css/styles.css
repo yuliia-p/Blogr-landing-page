@@ -1,0 +1,112 @@
+@import "https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;600&family=Ubuntu:wght@400;500;700&display=swap";
+
+body {
+  font-size: 16px;
+  font-family: Overpass, sans-serif;
+  text-align: center;
+
+  /* background-image: linear-gradient(to right, #ff8f70, #ff7e66, #ff6c5e, #ff5758, #ff3d54); */
+
+  /* background: rgb(44, 45, 63);
+  background: linear-gradient(0deg, rgba(44, 45, 63, 1) 0%, rgba(63, 65, 100, 1) 100%); */
+}
+
+div.row-red {
+  color: white;
+  height: 100%;
+  padding-top: 3rem;
+  background-image:
+    linear-gradient(
+      to bottom,
+      #e66465,
+      rgba(249, 75, 75, 0.673)
+    ),
+    url("../images/bg-pattern-intro-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 300%;
+  background-position-x: center;
+  background-position-y: center;
+  border-bottom-left-radius: 6rem;
+}
+
+div.logo {
+  text-align: left;
+}
+
+.fa-bars {
+  font-size: 2rem;
+}
+
+.d-none,
+.desktop,
+.off {
+  display: none;
+}
+
+div.column-full h1 {
+  font-size: 2.6rem;
+  font-weight: 300;
+}
+
+div.column-full p {
+  font-size: 1.65rem;
+  font-weight: 100;
+  margin-top: 0.7rem;
+  margin-bottom: 4rem;
+}
+
+div.column-full button {
+  width: 45%;
+  padding: 1rem;
+  font-size: 1.3rem;
+  border-radius: 30px;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+}
+
+button.start-b {
+  background-color: white;
+  color: hsl(356deg, 100%, 66%);
+  border: solid 1px white;
+}
+
+button.learn-b {
+  border: solid 1px white;
+  background-color: transparent;
+  color: white;
+  margin-left: 0.5rem;
+}
+
+.menu-content,
+.on {
+  padding: 1.5rem;
+  position: fixed;
+  right: 1rem;
+  left: 1rem;
+  top: 7rem;
+  width: 90%;
+  margin: auto;
+  background-color: rgb(255 255 255);
+  color: hsl(208deg, 49%, 24%);
+  font-size: 1.5rem;
+}
+
+.p-holder {
+  cursor: pointer;
+}
+
+button.login-b,
+button.reg-b {
+  width: 80%;
+  padding: 1rem;
+  font-size: 1.3rem;
+  border-radius: 30px;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+}
+
+.login-b {
+  background-color: white;
+  color: hsl(208deg, 49%, 24%);
+  border: solid 1px white;
+}
