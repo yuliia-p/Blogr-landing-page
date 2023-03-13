@@ -4,6 +4,7 @@ body {
   font-size: 16px;
   font-family: Overpass, sans-serif;
   text-align: center;
+  color: hsl(208deg, 49%, 24%);
 }
 
 div.row-red {
@@ -127,4 +128,30 @@ button.reg-b {
 
 div.menu p {
   font-size: 1.3rem;
+}
+
+h1.design-h1 {
+  margin: 4rem 0 2rem;
+}
+
+p.editor-p,
+p.management-p,
+p.infrastructure-p {
+  font-size: 1.3rem;
+  padding: 0 1.3rem;
+  line-height: 2.3rem;
+  color: grey;
+  margin-top: 0;
+}
+
+p.infrastructure-p {
+  color: white;
+}
+
+div.row-blue {
+  background-color: hsl(237deg, 17%, 21%);
+  background-image: url("../images/bg-pattern-circles.svg");
+  color: white;
+
+  /* background-image: url("../images/illustration-phones.svg"); */
 }
