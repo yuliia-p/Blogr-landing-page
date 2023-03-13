@@ -9,7 +9,7 @@ body {
 
 div.row-red {
   color: white;
-  height: 600px;
+  height: 700px;
   padding-top: 3rem;
   background-image:
     linear-gradient(
@@ -23,6 +23,10 @@ div.row-red {
   background-position-x: center;
   background-position-y: center;
   border-bottom-left-radius: 6rem;
+}
+
+.h1-mobile {
+  margin-top: 0;
 }
 
 div.logo {
@@ -136,7 +140,8 @@ h1.design-h1 {
 
 p.editor-p,
 p.management-p,
-p.infrastructure-p {
+p.infrastructure-p,
+p.laptop-p {
   font-size: 1.3rem;
   padding: 0 1.3rem;
   line-height: 2.3rem;
@@ -161,18 +166,15 @@ div.row-blue {
   height: 600px;
   border-top-right-radius: 6rem;
   border-bottom-left-radius: 6rem;
-
-  /* background-image: url("../images/illustration-phones.svg"); */
 }
 
 div.phones-img {
   position: absolute;
-
-  /* bottom: 23rem; */
   top: -15rem;
   left: 0;
 }
 
+div.laptop-img img,
 div.phones-img img {
   width: 100%;
 }
@@ -180,4 +182,14 @@ div.phones-img img {
 div.phones-content {
   position: inherit;
   top: 8rem;
+}
+
+div.footer {
+  background-color: hsl(240deg, 10%, 16%);
+  color: white;
+  border-top-right-radius: 6rem;
+}
+
+.logo-footer {
+  margin: 4rem 0;
 }
