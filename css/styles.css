@@ -151,7 +151,33 @@ p.infrastructure-p {
 div.row-blue {
   background-color: hsl(237deg, 17%, 21%);
   background-image: url("../images/bg-pattern-circles.svg");
+  background-size: 160%;
+  background-position-y: -300px;
+  background-position-x: center;
+  background-repeat: no-repeat;
   color: white;
+  position: relative;
+  margin: 12rem 0 0;
+  height: 600px;
+  border-top-right-radius: 6rem;
+  border-bottom-left-radius: 6rem;
 
   /* background-image: url("../images/illustration-phones.svg"); */
+}
+
+div.phones-img {
+  position: absolute;
+
+  /* bottom: 23rem; */
+  top: -15rem;
+  left: 0;
+}
+
+div.phones-img img {
+  width: 100%;
+}
+
+div.phones-content {
+  position: inherit;
+  top: 8rem;
 }
