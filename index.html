@@ -19,9 +19,35 @@
   <div class="container">
     <div class="row row-red">
       <div class="column-half logo">
-        <img src="./images/logo.svg" alt="logo">
+        <img class="mobile" src="./images/logo.svg" alt="logo">
+        <div class="desktop flex">
+          <img class="logo-destop" src="./images/logo.svg" alt="logo">
+          <p class="p-menu click">Product<img style="margin-left: 0.5rem;" src="./images/icon-arrow-light.svg" alt="arrow-down" >
+          </p>
+          <div class="product-menu-destop d-none menu">
+            <p>Overview</p>
+            <p>Pricing</p>
+            <p>Marketplace</p>
+            <p>Features</p>
+            <p>Integrations</p>
+          </div>
+          <p class="p-menu click">Company<img style="margin-left: 0.5rem;" src="./images/icon-arrow-light.svg" alt="arrow-down" >
+          </p>
+          <div class="company-menu-destop d-none menu">
+            <p>About</p>
+            <p>Team</p>
+            <p>Blog</p>
+            <p>Careers</p>
+          </div>
+          <p class="p-menu click">Connect<img style="margin-left: 0.5rem;" src="./images/icon-arrow-light.svg" alt="arrow-down" ></p>
+          <div class="company-menu-destop d-none menu">
+            <p>Contact</p>
+            <p>Newsletter</p>
+            <p>LinkedIn</p>
+          </div>
+        </div>
       </div>
-      <div class="column-half menu-mobile">
+      <div class="column-half menu-mobile mobile">
         <div class="menu-bars" style="text-align: end;">
           <i id="menu-icon" class="fa fa-thin fa-bars"></i>
           <img class="off" id="cross-icon" src="./images/icon-close.svg" alt="cross-img">
@@ -60,8 +86,15 @@
             </div>
           </div>
         </div>
+
       </div>
-      <div class="column-half menu-desktop desktop"></div>
+
+      <div class="column-half menu-desktop desktop">
+        <div class="button-holder">
+          <button class="login-b">Login</button>
+          <button class="reg-b">Sign Up</button>
+        </div>
+      </div>
       <div class="column-full">
         <h1 class="h1-mobile">A modern publishing platform</h1>
         <p>Grow your audience and build your online brand</p>
@@ -107,7 +140,7 @@
         This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
       </div>
     </div>
-    <div class="row ">
+    <div class="row">
       <div class="column-half-desktop column-full-m laptop-img">
         <img src="./images/illustration-laptop-mobile.svg" alt="laptop">
       </div>

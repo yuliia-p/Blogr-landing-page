@@ -25,19 +25,14 @@
   flex-basis: 100%;
 }
 
-/* @media screen and (min-width: 768px) {
-  .container {
-    max-width: 900px;
-  }
-.column-half {
-  flex-basis: 50%%;
-}
-  .column-full,
+@media screen and (min-width: 768px) {
   .column-half {
-    padding: 0 0.75rem;
+    flex-basis: 50%;
   }
 
-  .column-half {
-    width: 50%;
+  .flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
   }
-} */
+}

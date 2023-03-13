@@ -108,9 +108,9 @@ button.reg-b {
 }
 
 .login-b {
-  background-color: white;
+  background-color: transparent;
   color: hsl(208deg, 49%, 24%);
-  border: solid 1px white;
+  border: none;
 }
 
 button.reg-b {
@@ -192,4 +192,23 @@ div.footer {
 
 .logo-footer {
   margin: 4rem 0;
+}
+
+@media screen and (min-width: 756px) {
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .logo-destop {
+    width: 20%;
+  }
 }
