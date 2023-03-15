@@ -99,7 +99,6 @@ button.learn-b {
 
 button.login-b,
 button.reg-b {
-  width: 60%;
   padding: 1rem;
   font-size: 1.3rem;
   border-radius: 30px;
@@ -216,5 +215,48 @@ div.footer {
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
+  }
+
+  .menu-desktop {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  button.reg-b {
+    font-family: inherit;
+    width: 100%;
+    padding: 0.5rem 2.5rem;
+    font-size: 1rem;
+    background: none;
+    background-color: white;
+    color: #ff525d;
+    border: solid 1px white;
+  }
+
+  button.login-b {
+    font-family: inherit;
+    padding: 0.5rem 2.5rem;
+    font-size: 1rem;
+    color: white;
+  }
+
+  div.column-full button {
+    font-size: 1rem;
+    width: auto;
+  }
+
+  .row-design {
+    text-align: start;
+  }
+
+  div.column-full h1.design-h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .row-design p {
+    font-size: 1rem;
+    padding: 0;
   }
 }
