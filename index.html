@@ -19,9 +19,42 @@
   <div class="container">
     <div class="row row-red">
       <div class="column-half logo">
-        <img src="./images/logo.svg" alt="logo">
+        <img class="mobile" src="./images/logo.svg" alt="logo">
+        <div class="desktop flex">
+          <img class="logo-destop" src="./images/logo.svg" alt="logo">
+          <p class="p-menu click">Product<img style="margin-left: 0.5rem;" src="./images/icon-arrow-light.svg" alt="arrow-down" >
+          </p>
+          <div class="product-menu-destop d-none menu">
+            <p>Overview</p>
+            <p>Pricing</p>
+            <p>Marketplace</p>
+            <p>Features</p>
+            <p>Integrations</p>
+          </div>
+          <p class="p-menu click">Company<img style="margin-left: 0.5rem;" src="./images/icon-arrow-light.svg" alt="arrow-down" >
+          </p>
+          <div class="company-menu-destop d-none menu">
+            <p>About</p>
+            <p>Team</p>
+            <p>Blog</p>
+            <p>Careers</p>
+          </div>
+          <p class="p-menu click">Connect<img style="margin-left: 0.5rem;" src="./images/icon-arrow-light.svg" alt="arrow-down" ></p>
+          <div class="company-menu-destop d-none menu">
+            <p>Contact</p>
+            <p>Newsletter</p>
+            <p>LinkedIn</p>
+          </div>
+        </div>
       </div>
-      <div class="column-half menu-mobile">
+      <div class="column-half menu-desktop desktop">
+        <div class="button-holder flex">
+          <button class="login-b">Login</button>
+          <button class="reg-b">Sign Up</button>
+        </div>
+      </div>
+
+      <div class="column-half menu-mobile mobile">
         <div class="menu-bars" style="text-align: end;">
           <i id="menu-icon" class="fa fa-thin fa-bars"></i>
           <img class="off" id="cross-icon" src="./images/icon-close.svg" alt="cross-img">
@@ -60,8 +93,10 @@
             </div>
           </div>
         </div>
+
       </div>
-      <div class="column-half menu-desktop desktop"></div>
+
+
       <div class="column-full">
         <h1 class="h1-mobile">A modern publishing platform</h1>
         <p>Grow your audience and build your online brand</p>
@@ -69,32 +104,33 @@
         <button class="learn-b">Learn More</button>
       </div>
     </div>
-    <div class="row">
-      <div class="column-half-desktop column-full-m" style="text-align: center">
+    <div style="flex-direction: row-reverse" class="row row-design">
+      <div class="column-full column-full-m" style="text-align: center">
         <h1 class="design-h1" >Designed for the future</h1>
       </div>
       <div class="column-half-desktop column-full-m">
         <img style="width: 100%" src="./images/illustration-editor-mobile.svg" alt="">
       </div>
-    </div>
-    <div class="row">
       <div class="column-half-desktop column-full-m">
         <h1>Introducing an extensible editor</h1>
-      </div>
-      <div class="column-half-desktop column-full-m">
-        <p class="editor-p" >Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
-        The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
-        videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
-        change the looks of a blog.</p>
+        <p class="editor-p">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating
+          content.
+          The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+          videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+          change the looks of a blog.</p>
+        <h1>Robust content management</h1>
+        <p class="management-p">Flexible content management enables users to easily move through posts. Increase the usability
+          of your blog
+          by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
       </div>
     </div>
+
     <div class="row">
       <div class="column-half-desktop column-full-m">
         <h1>Robust content management</h1>
       </div>
       <div class="column-half-desktop column-full-m">
-        <p class="management-p">Flexible content management enables users to easily move through posts. Increase the usability of your blog
-        by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+
       </div>
     </div>
     <div class="row row-blue">
@@ -107,7 +143,7 @@
         This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
       </div>
     </div>
-    <div class="row ">
+    <div class="row">
       <div class="column-half-desktop column-full-m laptop-img">
         <img src="./images/illustration-laptop-mobile.svg" alt="laptop">
       </div>
