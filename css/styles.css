@@ -201,7 +201,7 @@ div.footer {
   }
 
   .desktop {
-    display: block;
+    display: contents;
   }
 
   .mobile {
@@ -210,5 +210,11 @@ div.footer {
 
   .logo-destop {
     width: 20%;
+  }
+
+  .flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
   }
 }
