@@ -194,13 +194,17 @@ div.footer {
 }
 
 @media screen and (min-width: 756px) {
+  body {
+    font-size: 1rem;
+  }
+
   .container {
     width: 100%;
     margin: auto;
   }
 
   .desktop {
-    display: contents;
+    display: block;
   }
 
   .mobile {
@@ -253,10 +257,38 @@ div.footer {
   div.column-full h1.design-h1 {
     font-size: 2rem;
     font-weight: bold;
+    margin-bottom: 3rem;
   }
 
   .row-design p {
     font-size: 1rem;
     padding: 0;
+    margin-right: 4rem;
+  }
+
+  div.column-full h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  div.column-full p {
+    font-size: 1rem;
+  }
+
+  div.column-half-desktop h1 {
+    font-size: 1.4rem;
+    margin: 2rem 0 1rem;
+  }
+
+  div.position {
+    position: relative;
+  }
+
+  div.position img.desktop {
+    width: 130%;
+    position: absolute;
+    top: -8rem;
+    left: 8rem;
   }
 }
