@@ -29,4 +29,8 @@
   .column-half-desktop {
     flex-basis: 50%;
   }
+
+  .row {
+    padding: 1.5rem 5rem;
+  }
 }
